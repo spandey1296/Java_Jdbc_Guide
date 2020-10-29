@@ -1,6 +1,10 @@
 package com.company;
 
-
+/**
+ *
+ * @author spandey1296.github.io
+ *
+ */
 import java.sql.*;
 
 public class JdbcPreparedStatement {

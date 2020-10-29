@@ -1,7 +1,11 @@
 package com.company;
 
 import java.sql.*;
-
+/**
+ *
+ * @author spandey1296.github.io
+ *
+ */
 public class JdbcQuary {
 
 

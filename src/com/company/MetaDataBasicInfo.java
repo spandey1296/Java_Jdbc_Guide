@@ -4,7 +4,11 @@ import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+/**
+ *
+ * @author spandey1296.github.io
+ *
+ */
 public class MetaDataBasicInfo {
 
 	public static void main(String[] args) throws SQLException {

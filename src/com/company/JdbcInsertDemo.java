@@ -1,7 +1,11 @@
 package com.company;
 
 import java.sql.*;
-
+/**
+ *
+ * @author spandey1296.github.io
+ *
+ */
 public class JdbcInsertDemo {
     public static void main(String[] args) throws SQLException {
 
@@ -27,7 +31,7 @@ public class JdbcInsertDemo {
                     "insert into employees " +
                             "(last_name, first_name, email, department, salary) " +
                             "values " +
-                            "('pandey', 'shivant', 'ericpandey@gmail.com', 'HR', 33000.00)");
+                            "('chitkara', 'hp', 'chitkara@gmail.com', 'college', 33000.00)");
 
             // 4. Verify this by getting a list of employees
             myRs = myStmt.executeQuery("select * from employees order by last_name");

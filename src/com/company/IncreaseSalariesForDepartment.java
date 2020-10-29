@@ -3,9 +3,8 @@ package com.company;
 import java.sql.*;
 
 /**
- * Test calling stored procedure with IN parameters
- *  
- * @author www.luv2code.com
+ *
+ * @author spandey1296.github.io
  *
  */
 public class IncreaseSalariesForDepartment {
