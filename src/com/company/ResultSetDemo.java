@@ -6,7 +6,11 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-
+/**
+ *
+ * @author spandey1296.github.io
+ *
+ */
 public class ResultSetDemo {
 
 	public static void main(String[] args) throws SQLException {
