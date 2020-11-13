@@ -10,7 +10,7 @@ import java.sql.Types;
 /**
  * Test calling stored procedure with OUT parameters
  * 
- * @author www.luv2code.com
+ * @author
  *
  */
 public class GetCountForDepartment {
