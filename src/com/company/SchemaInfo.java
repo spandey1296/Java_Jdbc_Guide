@@ -6,6 +6,11 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+
+
+// spandey1296.github.io
+
+
 public class SchemaInfo {
 
 	public static void main(String[] args) throws SQLException {
@@ -50,6 +55,7 @@ public class SchemaInfo {
 
 		} catch (Exception exc) {
 			exc.printStackTrace();
+			System.out.println("exception catch handle");
 		} finally {
 			close(myConn, myRs);
 		}
